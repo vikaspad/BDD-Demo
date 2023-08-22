@@ -1,0 +1,23 @@
+{
+    "id": 11,
+    "name": "Tutorialspoint",
+    "username": "Test1",
+    "email": "abc@gmail.com",
+    "address": {
+        "street": "qa street1",
+        "suite": "Apt 123",
+        "city": "Kochi",
+        "zipcode": "49085",
+        "geo": {
+            "lat": "-3.3155",
+            "lng": "94.156"
+        }
+    },
+    "phone": "99599125",
+    "website": "Tutorialspoint.com",
+    "company": {
+        "name": "Tutorialspoint",
+        "catchPhrase": "Simple Easy Learning",
+        "bs": "Postman Tutorial"
+    }
+}

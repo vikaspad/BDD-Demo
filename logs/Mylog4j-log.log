@@ -1,0 +1,33 @@
+[INFO ]2023-08-21 20:12:44.906[main]LoggerLoad-API resource https://postman-echo.com/basic-auth
+[INFO ]2023-08-21 20:12:44.929[main]LoggerLoad-I form a basic authentication request with username test and password testpassword
+[INFO ]2023-08-21 20:12:44.938[main]LoggerLoad-Payload Json1.json
+[INFO ]2023-08-21 20:12:44.938[main]LoggerLoad-File path C:\Users\padiy\IdeaProjects\BDDDemoProject\src\main\resources\testData\Json1.json
+[INFO ]2023-08-21 20:12:44.939[main]LoggerLoad-Input json java.io.FileInputStream@834831b
+[INFO ]2023-08-21 20:12:44.948[main]LoggerLoad-File path C:\Users\padiy\IdeaProjects\BDDDemoProject\src\main\resources\testData\Json1.json
+[INFO ]2023-08-21 20:12:44.949[main]LoggerLoad-Input json java.io.FileInputStream@46678e49
+[INFO ]2023-08-21 20:12:44.951[main]LoggerLoad-Json object {"website":"Tutorialspoint.com","address":{"zipcode":"49085","geo":{"lng":"94.156","lat":"-3.3155"},"suite":"Apt 123","city":"Kochi","street":"qa street1"},"phone":"99599125","name":"Tutorialspoint","company":{"bs":"Postman Tutorial","catchPhrase":"Simple Easy Learning","name":"Tutorialspoint"},"id":11,"email":"abc@gmail.com","username":"Test1"}
+[INFO ]2023-08-21 20:12:45.159[main]LoggerLoad-Updated payload {"website":"Tutorialspoint.com","address":{"zipcode":"49085","geo":{"lng":"94.156","lat":"-3.3155"},"suite":"Apt 123","city":"Kochi","street":"qa street1"},"phone":"99599125","name":"Tutorialspoint","company":{"bs":"Postman Tutorial","catchPhrase":"Simple Easy Learning","name":"Tutorialspoint"},"id":11,"email":"abc@gmail.com","username":"TestUser"}
+[INFO ]2023-08-21 20:12:45.165[main]LoggerLoad-Updated payload {"website":"Tutorialspoint.com","address":{"zipcode":"49085","geo":{"lng":"94.156","lat":"-3.3155"},"suite":"Apt 123","city":"Kochi","street":"1001 Common street"},"phone":"99599125","name":"Tutorialspoint","company":{"bs":"Postman Tutorial","catchPhrase":"Simple Easy Learning","name":"Tutorialspoint"},"id":11,"email":"abc@gmail.com","username":"TestUser"}
+[INFO ]2023-08-21 20:12:48.327[main]LoggerLoad-Response body {
+  "website": "Tutorialspoint.com",
+  "address": {
+    "zipcode": "49085",
+    "geo": {
+      "lng": "94.156",
+      "lat": "-3.3155"
+    },
+    "suite": "Apt 123",
+    "city": "Kochi",
+    "street": "1001 Common street"
+  },
+  "phone": "99599125",
+  "name": "Tutorialspoint",
+  "company": {
+    "bs": "Postman Tutorial",
+    "catchPhrase": "Simple Easy Learning",
+    "name": "Tutorialspoint"
+  },
+  "id": 11,
+  "email": "abc@gmail.com",
+  "username": "TestUser"
+}
