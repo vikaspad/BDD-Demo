@@ -11,17 +11,13 @@ import org.testng.annotations.BeforeClass;
     @CucumberOptions (
             features = {"features/"},
             glue = {"Stepdefinition"},
-            plugin = {"pretty", "html:target/cucumber-reports.html"}
+            plugin = {"pretty", "html:target/cucumber-report.html","json:target/cucumber.json"}
 //            tags = "@Run"
     )
 
 
     public class TestRunner extends AbstractTestNGCucumberTests {
-
-//    @Override
-//    @DataProvider(parallel=false)
-//    public Object[][] scenarios(){
-//        return super.scenarios();
-//    }
+        
+        //type in terminal: mvn clean test -Dcucumber.options="--tags @Run"
 
 }
